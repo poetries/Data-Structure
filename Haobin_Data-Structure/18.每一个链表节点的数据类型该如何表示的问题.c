@@ -7,4 +7,4 @@ typedef struct Student
 	int data;
 	struct Student * next;//struct Student * next
 	
-} ST,* PST; //ST 等价于 struct Student  *PST等价于  struct Student *PST
+} ST,* PST; //ST 等价于 struct Student  PST等价于  struct Student *
