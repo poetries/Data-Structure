@@ -8,7 +8,7 @@ int main(void)
 
 	printf("%p\n", a+1);
 	printf("%p\n", a+2);
-	printf("%d\n", *a+3); //*a+3ç­‰ä»·äºŽ a[0]+3
+	printf("%d\n", *a+3); //*a+3µÈ¼ÛÓÚ a[0]+3
 	
 
 

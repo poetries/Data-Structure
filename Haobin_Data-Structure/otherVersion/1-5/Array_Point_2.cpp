@@ -8,14 +8,14 @@ void Show_Array(int * p, int len)
 		printf("%d\n", p[i]);
 
 	//p[2] = -1;  //p[0] == *p   p[2] == *(p+2) == *(a+2) == a[2]
-	//p[i]å°±æ˜¯ä¸»å‡½æ•°çš„a[i]
+	//p[i]¾ÍÊÇÖ÷º¯ÊýµÄa[i]
 }
 
 int main(void)
 {
 	int a[5] = {1,2,3,4,5};
 	
-	Show_Array(a, 5);  //aç­‰ä»·äºŽ&a[0], &a[0]æœ¬èº«å°±æ˜¯int *ç±»åž‹
+	Show_Array(a, 5);  //aµÈ¼ÛÓÚ&a[0], &a[0]±¾Éí¾ÍÊÇint *ÀàÐÍ
 
 	//printf("%d\n", a[2]);
 

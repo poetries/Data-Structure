@@ -1,6 +1,6 @@
 # include <stdio.h>
 
-void f(int * p) //ä¸æ˜¯å®šä¹‰äº†ä¸€ä¸ªåå­—å«åš*pçš„å½¢å‚, è€Œæ˜¯å®šä¹‰äº†ä¸€ä¸ªå½¢å‚ï¼Œè¯¥å½¢å‚åå­—å«åšp,å®ƒçš„ç±»åž‹æ˜¯int *
+void f(int * p) //²»ÊÇ¶¨ÒåÁËÒ»¸öÃû×Ö½Ð×ö*pµÄÐÎ²Î, ¶øÊÇ¶¨ÒåÁËÒ»¸öÐÎ²Î£¬¸ÃÐÎ²ÎÃû×Ö½Ð×öp,ËüµÄÀàÐÍÊÇint *
 {
 	*p = 100; //
 }
