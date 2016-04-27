@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ALGO4-4 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ALGO4-4.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\桌面\数据结构代码实现\8F《数据结构》的全部代码实现（C语言）\ch4\ALGO4-4.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4A.tmp" 
+<h3>Output Window</h3>
+Compiling...
+ALGO4-4.c
+D:\桌面\数据结构代码实现\8F《数据结构》的全部代码实现（C语言）\ch4\ALGO4-4.c(3) : fatal error C1083: Cannot open include file: 'c1.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ALGO4-4.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

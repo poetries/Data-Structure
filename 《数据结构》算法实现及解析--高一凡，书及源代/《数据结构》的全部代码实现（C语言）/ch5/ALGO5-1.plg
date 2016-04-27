@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ALGO5-1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ALGO5-1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\My Documents\教学课程\数据结构\数据结构(严蔚敏)\《数据结构》的全部代码实现（C语言）\ch5\ALGO5-1.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4B.tmp" 
+<h3>Output Window</h3>
+Compiling...
+ALGO5-1.c
+d:\my documents\教学课程\数据结构\数据结构(严蔚敏)\《数据结构》的全部代码实现（c语言）\ch5\algo5-1.c(2) : fatal error C1083: Cannot open include file: 'c1.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ALGO5-1.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

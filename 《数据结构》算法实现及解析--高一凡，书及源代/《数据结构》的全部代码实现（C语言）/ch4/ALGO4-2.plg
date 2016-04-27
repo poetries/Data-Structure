@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ALGO4-2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP28.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ALGO4-2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\桌面\数据结构代码实现\8F《数据结构》的全部代码实现（C语言）\ch4\ALGO4-2.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP28.tmp" 
+<h3>Output Window</h3>
+Compiling...
+ALGO4-2.c
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(3) : error C2061: syntax error : identifier 'StrAssign'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(3) : error C2059: syntax error : ';'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(3) : error C2059: syntax error : 'type'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(17) : error C2061: syntax error : identifier 'StrCopy'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(17) : error C2059: syntax error : ';'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(17) : error C2059: syntax error : 'type'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(25) : error C2061: syntax error : identifier 'StrEmpty'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(25) : error C2059: syntax error : ';'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(25) : error C2059: syntax error : 'type'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(48) : error C2061: syntax error : identifier 'ClearString'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(48) : error C2059: syntax error : ';'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(48) : error C2059: syntax error : 'type'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(54) : error C2061: syntax error : identifier 'Concat'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(54) : error C2059: syntax error : ';'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(54) : error C2059: syntax error : 'type'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(77) : error C2061: syntax error : identifier 'SubString'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(77) : error C2059: syntax error : ';'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(77) : error C2059: syntax error : 'type'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(116) : error C2061: syntax error : identifier 'StrInsert'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(116) : error C2059: syntax error : ';'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(116) : error C2059: syntax error : 'type'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(142) : error C2061: syntax error : identifier 'StrDelete'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(142) : error C2059: syntax error : ';'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(142) : error C2059: syntax error : 'type'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(154) : error C2061: syntax error : identifier 'Replace'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(154) : error C2059: syntax error : ';'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(154) : error C2059: syntax error : 'type'
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\bo4-1.c(181) : warning C4013: 'printf' undefined; assuming extern returning int
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\algo4-2.c(45) : warning C4013: 'StrAssign' undefined; assuming extern returning int
+d:\桌面\数据结构代码实现\8f《数据结构》的全部代码实现（c语言）\ch4\algo4-2.c(52) : warning C4013: 'malloc' undefined; assuming extern returning int
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ALGO4-2.obj - 27 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
