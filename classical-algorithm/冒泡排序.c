@@ -5,7 +5,7 @@ void sort(int *a,int len)
     
     for( i = 0;i<len-1;++i)
     {
-        for(j = 0;j<len-1-i;++j)
+        for(j = 0;j<len-1-i;++j) 或者 j=i+1;j<len;++j
         {
             if(a[j] >a[j+1])
             {
