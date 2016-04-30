@@ -10,6 +10,122 @@ typedef struct Node
 
 }NODE,*PNODE;//NODE等价于struct Node,PNODE等价于struct Node*
 
+
+//判断链表是否为空
+bool is_empty(PNODE pHead)
+{
+	if(pHead->pNext == NULL)
+		return true;
+	else
+		return false;
+}
+
+//链表长度
+int length_list(PNODE pHead)
+{
+	PNODE p = pHead->pNext;
+	int len = 0;//len用于求链表的长度
+
+	//链表不为空 执行while
+
+	while(NULL != p)
+	{
+		++len;
+		p = p->pNext;
+	}
+	return len;
+}
+
+
+//在pHead所指向链表的第pos个节点的前面插入新的节点，该节点的值是val 并且pos的值是从1开始
+
+bool insert_list(PNODE pHead,int pos,int val)
+{
+	int i = 0;
+	PNODE p = pHead;
+
+	while(NULL!=p && i<pos-1)
+	{
+		p = p->pNext;
+		++i;
+	}
+
+	if(i>pos-1 || NULL==p)
+		return false;
+
+	PNODE pNew = (PNODE)malloc(sizeof(NODE));
+	if(NULL==pNew)
+	{
+		printf("动态内存分配失败!\n");
+		exit(-1);
+	}
+	pNew->data = val;
+	PNODE q = p->pNext;
+	p->pNext = pNew;
+	pNew->pNext = q;
+
+	return true;
+
+}
+
+
+//删除
+
+bool delete_list(PNODE pHead,int pos,int *pVal)
+{
+	int i = 0;
+	PNODE p = pHead;
+
+	while(NULL!=p->pNext && i<pos-1)
+	{
+		p = p->pNext;
+		++i;
+	}
+
+	if(i>pos-1 || NULL==p->pNext)
+		return false;
+
+	
+
+	PNODE q = p->pNext;
+	*pVal = q->data;//删除节点前把数据保存pVal起来
+
+	//删除p节点后面的节点
+	p->pNext = p->pNext->pNext;
+	free(q);
+	q = NULL;
+
+	return true;
+} 
+
+
+//排序
+
+void sort_list(PNODE pHead)
+{
+	int i,j,t;
+	int len = length_list(pHead);
+
+	PNODE p,q;
+	
+	//i=0数组中第一个有效元素的下标  p=pHead->pNext是链表中第一个有效元素的地址
+	for(i=0,p=pHead->pNext;i<len;++i,p=p->pNext)
+	{
+		//j是i元素的下一个下标  q是p下一个元素的地址
+		for(j=i+1,q=p->pNext;j<len;++j,q=q->pNext)
+		{
+			if(p->data > q->data) //和数组中一样:a[i]>a[j]
+			{
+				t = p->data;       //t = a[i];
+				p->data = q->data; //a[i] = a[j];
+				q->data = t;      //a[j] = t;
+			}
+		}
+	}
+	return;
+}
+
+
 //返回已经造好的链表的头节点的地址
 
 PNODE create_list()
@@ -78,6 +194,34 @@ void traverse_list(PNODE pHead)  //形参接受主函数发送过来的头节点
 void main()
 {
 	PNODE pHead = NULL;
+//	int val;
 	pHead = create_list();//构建一个非循环单链表 并将链表头节点地址付给怕pHead
 	traverse_list(pHead);//把地址发送给traverse_list()遍历输出
+
+//	insert_list(pHead,4,33);
+	sort_list(pHead);
+	
+/*
+if(	delete_list(pHead,4,&val))
+{
+	printf("删除成功!您删除的元素是%d\n",val);
+}
+else
+{
+	printf("删除失败!\n");
+}
+
+ */
+	traverse_list(pHead);
+//	int len = length_list(pHead);
+//	printf("链表长度是%d\n",len);
+
+/*
+	if(is_empty(pHead))
+		printf("链表为空!\n");
+	else
+		printf("链表不为空!\n");
+*/
+
+
 }
